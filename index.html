@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/svg-with-js.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="logo/png" href="./images/logo.png">
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+    <title>Marvel's Hub</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        .wrapper {
+            height: 700px;
+            width: 100%;
+            background-color: rgb(211, 198, 198);
+            background-image: url(./images/R.jpg);
+            opacity: 0.9;
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .typing-demo {
+            width: 22ch;
+            animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            font-family: monospace;
+            font-size: 22px;
+            color: rgb(255, 253, 253);
+            background-color: rgba(169, 169, 169, 0.287);
+            z-index: -1;
+            margin-left: 80px;
+            opacity: 1;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top"
+        style="position: sticky;   background-attachment:fixed;">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#" style="color:red;"><span id="marvel">Marvel's Hub</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " href="#">Home</a>
+                    <a class="nav-link" href="#h2note">Notice</a>
+                    <a class="nav-link" href="#h1note">Movies</a>
+                    <a class="nav-link " href="join.html">Join Us!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>SWIPE UP!</strong> <a href="#h1note">Click here</a> To Download Movies<br>
+        <strong>Join Telegram!</strong><a href="https://t.me/k1s_0">click Here</a> to Join Telegram
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="wrapper">
+
+
+        <div class="typing-demo">
+            Hello! welcome to <br>
+            &nbsp; Marvel's movies Hub!</div>
+        <!-- <h5>SWIPE UP!!</h5> -->
+    </div>
+
+    <div class="not">
+        <h2 style="text-align: center;" id="h2note">Latest update!</h2>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Important !</strong> Open in desktop for better view
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="
+                 height: auto; 
+                width: 100%;
+                padding: 10px;
+            ">
+                <div class="carousel-item active">
+                    <img src="./images/slider1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider3.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- <img src="/webdesign.png" class="img-fluid" alt="ads" > -->
+        <!-- <img src="./images/Doctor-Strange-In-The-Multiverse-Of-Madness-6.jpg" class="card-img-top" alt="image"> -->
+
+    </div>
+    <!-- <div class="ads">
+        <img src="/webdesign.png" class="img-fluid" alt="ads" style="margin-left:165px ; margin-top:45px;">
+    </div>  style="margin-left:165px ; margin-top:45px;" -->
+
+    <div class="contact">
+        <h2 style="text-align: center;" id="h1note"> Movies </h2>
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/marvel.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctor Strange in the Multiverse of Madness (2022)</h5>
+                            <p class="card-text">Language: Dual Audio [Hindi+English]
+
+                                Resolution: 480p | 720p | 1080p CAMRip
+
+                                Size: 370MB | 900MB | 2.4GB</p>
+                            <a href="https://allmovieshub.nl/doctor-strange-in-the-multiverse-of-madness-dual-audio-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Spider.png" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Spider-Man: No Way Home (2021) </h5>
+                            <p class="card-text">Download Spider-Man: No Way Home (2021) Dual Audio [Hin-Eng] available
+                                to download 480p in 500MB, 720p in 1GB & 1.5GB, 1080p in
+                                3.1GB in MKV Format.
+                            </p>
+                            <a href="https://allmovieshub.nl/spider-man-no-way-home-dual-audio-480p-720p-1080p-hd/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Spider-Man-Far-from-Home-Movie-Dual-Audio-download-480p-720p.png"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Spider-Man: Far from Home (2019)</h5>
+                            <p class="card-text"> Download Spider-Man: Far from Home (2019) Dual Audio [Hin-Eng]
+                                available to download in 480p, 720p, 1080p qualities. </p>
+                            <a href="https://allmovieshub.nl/spider-man-far-from-home-dual-audio-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/The-Falcon-and-the-Winter-Soldier-Season-1-in-Hindi-Dubbed-Download-480p-720p-1080p.jpg"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Falcon and the Winter Soldier (2021) Season 1</h5>
+                            <p class="card-text">Download The Falcon and the Winter Soldier Season 1 Dual Audio (2021)
+                                Each 480p Episode in 100MB, 720p Episode in 400MB, 1080p in 1GB available for download.
+                            </p>
+                            <a href="https://allmovieshub.nl/the-falcon-and-the-winter-soldier-season-1-dual-audio-hd-download-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Ant-Man-movie-dual-audio-download-480p-720p-1080p.jpg" class="card-img-top"
+                            alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Ant-Man (2015) </h5>
+                            <p class="card-text">Download Ant-Man (2015) Dual Audio [Hin-Eng] available to download in
+                                480p, 720p, 1080p qualities. </p>
+                            <a href="https://allmovieshub.nl/ant-man-dual-audio-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/endgame.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Avengers: Endgame </h5>
+                            <p class="card-text">Download Avengers: Endgame in Hindi (2019) Dual Audio (Hin-Eng) Movie
+                                available to download in 480p, 720p, qualities. </p>
+                            <a href="https://allmovieshub.nl/avengers-endgame-bluray-download-720p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/infinity.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Avengers Infinity War (2018) </h5>
+                            <p class="card-text">Download Avengers Infinity War Full Movie in Hindi (2018) Dual Audio
+                                (Hin-Eng) Movie available to download in 480p, 720p, 1080p qualities.</p>
+                            <a href="https://allmovieshub.nl/download-avengers-infinity-war-2018-hindi-download-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Agents-Of-S.H.I.E.L.D-season-english-audio-download-480p-720p.jpg"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Agents Of S.H.I.E.L.D (2013) </h5>
+                            <p class="card-text">Download Agents Of S.H.I.E.L.D Season 1-7 in English With Subtitles
+                                (2013-2020) Each 480p Episode in 150MB 720p Episode in 320MB available for download.
+                            </p>
+                            <a href="https://allmovieshub.nl/agents-of-s-h-i-e-l-d-2013-season-1-7-english-with-subtitles-download-480p-720p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Loki-season-1-in-Hindi-Dubbed-Dual-Audio-Download-480p-720p-1080p.jpeg"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Loki (2021) Season 1</h5>
+                            <p class="card-text">Download Loki Season 1 in Hindi Dubbed (2021) Each 480p in 150MB, 720p
+                                in 300MB, 1080p in 1.5GB available for download.</p>
+                            <a href="https://allmovieshub.nl/download-loki-season-1-hindi-dubbed-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row align-items-start">
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/Marvel_Studios_Assembled_Season_1_in_English_with_Subtitles_Download_480p_720p_1080p.jpg"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Assembled (2022) Season 1 </h5>
+                            <p class="card-text">Download Marvel Studios: Assembled Season 1 English With Subtitles
+                                (2022) Each 480p Episode in 250MB 720p Episode in 500MB, 1080p in 1.5GB available for
+                                download</p>
+                            <a href="https://allmovieshub.nl/marvel-studios-assembled-season-1-english-480p-720p-1080p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg"
+                            class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Captain America: Civil War (2016)</h5>
+                            <p class="card-text">Download Captain American Civil War Full Movie in Hindi (2016) Dual
+                                Audio (Hin-Eng) Movie available to download in 480p, 720p, 1080p qualities.</p>
+                            <a href="https://allmovieshub.nl/captain-american-civil-war-hindi-movie-download-720p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/iron-man-2-in-hindi-movie.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title">Iron Man 2 (2010)</h5>
+                            <p class="card-text">Download Iron Man 2 Full Movie in Hindi (2010) Dual Audio (Hin-Eng) Movie available to download in 480p, 720p, 1080p qualities</p>
+                            <a href="https://allmovieshub.nl/iron-man-2-hindi-movie-download-720p/"
+                                class="btn btn-danger">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/The-Incredible-Hulk-Movie-Dual-Audio-download-480p-720p.jpg" class="card-img-top" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">The Incredible Hulk (2008) </h5>
+                                <p class="card-text">Download The Incredible Hulk Movie (2008) Dual Audio [Hin-Eng] available to download in 480p, 720p, 1080p qualities.</p>
+                                <a href="https://allmovieshub.nl/the-incredible-hulk-dual-audio-480p-720p-1080p/"
+                                    class="btn btn-danger">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/Thor-The-Dark-World-Movie-Dual-Audio-download-480p-720p.jpg" class="card-img-top" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Thor: The Dark World (2013)</h5>
+                                <p class="card-text">Download Thor: The Dark World Movie (2013) Dual Audio [Hin-Eng] available to download in 480p, 720p, 1080p qualities.</p>
+                                <a href="https://allmovieshub.nl/thor-the-dark-world-dual-audio-480p-720p-1080p/"
+                                    class="btn btn-danger">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/Spider-Man-3-Movie-Dual-Audio-download-480p-720p.jpg" class="card-img-top" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Spider-Man 3 (2007) </h5>
+                                <p class="card-text">Download Spider-Man 3 Movie (2007) Dual Audio [Hin-Eng] available to download in 480p, 720p,1080p qualities. </p>
+                                <a href="https://allmovieshub.nl/spider-man-3-dual-audio-480p-720p-1080p/"
+                                    class="btn btn-danger">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                  
+            </div>
+        </div>
+        <hr>
+       
+</body>
+
+</html>
