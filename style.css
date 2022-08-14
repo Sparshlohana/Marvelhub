@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: linear-gradient(red, yellow);
 
 }
 
@@ -183,7 +184,7 @@
 }
 
 .col {
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   height: 380px;
   width: 300px;
   margin: 10px;
@@ -192,6 +193,12 @@
 .zoro {
   height: 380px;
   width: 300px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.zoro:hover {
+  width: 320px;
+  height: 400px;
 }
 
 .iFrameContainer {
@@ -205,4 +212,28 @@
 .iframe {
   width: 70%;
   height: 80vh;
+}
+
+#pikaa {
+  margin-left: 40%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media (min-width: 576px) {
+  .custom-myfunction {
+    width: 30px;
+    height: auto;
+  }
+}
+
+.alert {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.body {
+  background-color: linear-gradient(red, yellow);
 }

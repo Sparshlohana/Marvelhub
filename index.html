@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="logo/png" href="./images/logo.png">
     <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="./script.js"></script>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script> -->
@@ -31,6 +33,13 @@
             justify-content: center;
             align-items: center;
         }
+
+        /* @media (min-width: 600px) {
+            .wrapper {
+                width: 100px;
+            }
+        } */
+
 
         .typing-demo {
             width: 22ch;
@@ -78,24 +87,29 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link " href="#">Home</a>
-                    <a class="nav-link" href="#h2note">Notice</a>
+                    <a class="nav-link" href="#h2note">Update!</a>
                     <a class="nav-link" href="#h1note">Movies</a>
                     <a class="nav-link " href="join.html">Join Us!</a>
                 </div>
             </div>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-danger" onclick="myFunction()" type="submit">Search</button>
             </form>
+            <script>
+                function myFunction() {
+                    alert("sorry! search invalid ");
+                }
+            </script>
+
         </div>
     </nav>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <strong>SWIPE UP!</strong> <a href="#h1note">Click here</a> To Download Movies<br>
         <strong>Join Telegram!</strong><a href="https://t.me/k1s_0">click Here</a> to Join Telegram
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    </div> -->
     <div class="wrapper">
-
 
         <div class="typing-demo">
             Hello! welcome to <br>
@@ -105,8 +119,17 @@
 
     <div class="not">
         <h2 style="text-align: center;" id="h2note">Latest update!</h2>
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+
+
+
+        <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Important !</strong> Open in desktop for better view
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div> -->
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Important !</strong> Open in desktop for better view <br>
+            <!-- <strong>SWIPE UP!</strong> <a href="#h1note">Click here</a> To Download Movies<br> -->
+            <strong>Join Telegram!</strong><a href="https://t.me/k1s_0">click Here</a> to Join Telegram
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -158,108 +181,75 @@
             <div class="row align-items-center">
                 <div class="col"><a href="ironMan1.html"><img id="ironMan1" class="zoro" src="/images/ironMan1.jpg"
                             alt=""></a></div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro"
+                            src="./images/The-Incredible-Hulk-Movie-Dual-Audio-download-480p-720p.jpg" alt=""></a>
+                </div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro" src="./images/8171kEgHRRL._SL1500_.jpg"
+                            alt=""></a>
+                </div>
+
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro"
+                            src="./images/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg" alt=""></a>
+                </div>
             </div>
+
+
             <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
-                <div class="col">hey</div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro" src="./images/674583-v.jpeg" alt=""></a>
+                </div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro" src="./images/theavengers_lob_crd_03.jpg"
+                            alt=""></a>
+                </div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro" src="./images/ironman3_lob_crd_01_10.jpg"
+                            alt=""></a>
+                </div>
+                <div class="col"><a href="#"><img id="ironMan1" class="zoro"
+                            src="./images/Thor-The-Dark-World-Movie-Dual-Audio-download-480p-720p.jpg" alt=""></a>
+                </div>
             </div>
         </div>
-        <!-- <div class="container">
-            <div class="row align-items-center">
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/marvel.jpg" class="card-img-top" alt="image">
-                        <div class="card-body">
-                            <h5 class="card-title">Doctor Strange in the Multiverse of Madness (2022)</h5>
-                            <p class="card-text">Language: Dual Audio [Hindi+English]
-
-                                Resolution: 480p | 720p | 1080p CAMRip
-
-                                Size: 370MB | 900MB | 2.4GB</p>
-                            <a href="https://allmovieshub.nl/doctor-strange-in-the-multiverse-of-madness-dual-audio-480p-720p-1080p/"
-                                class="btn btn-danger">Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/Spider.png" class="card-img-top" alt="image">
-                        <div class="card-body">
-                            <h5 class="card-title">Spider-Man: No Way Home (2021) </h5>
-                            <p class="card-text">Download Spider-Man: No Way Home (2021) Dual Audio [Hin-Eng] available
-                                to download 480p in 500MB, 720p in 1GB & 1.5GB, 1080p in
-                                3.1GB in MKV Format.
-                            </p>
-                            <a href="https://allmovieshub.nl/spider-man-no-way-home-dual-audio-480p-720p-1080p-hd/"
-                                class="btn btn-danger">Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/Spider-Man-Far-from-Home-Movie-Dual-Audio-download-480p-720p.png"
-                            class="card-img-top" alt="image">
-                        <div class="card-body">
-                            <h5 class="card-title">Spider-Man: Far from Home (2019)</h5>
-                            <p class="card-text"> Download Spider-Man: Far from Home (2019) Dual Audio [Hin-Eng]
-                                available to download in 480p, 720p, 1080p qualities. </p>
-                            <a href="https://allmovieshub.nl/spider-man-far-from-home-dual-audio-480p-720p-1080p/"
-                                class="btn btn-danger">Download</a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+            <div class="col">hey</div>
+        </div>
+    </div>
+    </div>
 
 
-        <hr>
+
 
 </body>
 
