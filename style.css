@@ -227,13 +227,108 @@
   }
 }
 
-.alert {
+/* .alert {
   width: 30%;
   justify-content: center;
   align-items: center;
   margin-left: 35%;
-}
+} */
 
 .body {
   background-color: linear-gradient(red, yellow);
+}
+
+#captain {
+  margin-top: 550px;
+  /* margin-right: -1500px; */
+  animation-name: america;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes america {
+
+  from {
+    right: -30px;
+  }
+
+  to {
+    right: 1500px;
+  }
+}
+
+
+.animation {
+
+  width: 30px;
+  z-index: 1;
+  height: 30px;
+  /* background: url(./vdos/iron.gif); */
+  background-color: transparent;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* background-image: url(./vdos/iron.gif); */
+}
+
+@keyframes example {
+  0% {
+    /* background-color: red; */
+    left: 100px;
+    top: 0px;
+    /* transform: rotate(45deg); */
+  }
+
+  25% {
+    /* background-color: yellow; */
+    left: 1300px;
+    top: 0px;
+    /* transform: rotate(180deg); */
+  }
+
+  50% {
+    /* background-color: blue; */
+    left: 1300px;
+    top: 500px;
+    transform: rotate(90deg);
+  }
+
+  75% {
+    /* background-color: green; */
+    left: 0px;
+    /* right: 600px; */
+    top: 500px;
+    /* transform: rotate(180deg); */
+  }
+
+  100% {
+    /* background-color: red; */
+    left: 100px;
+    top: 0px;
+  }
+}
+
+.loader {
+  border: 16px solid #711111;
+  /* Light grey */
+  border-top: 16px solid #ffffff;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin-left: 40%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
