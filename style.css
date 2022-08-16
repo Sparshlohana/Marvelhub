@@ -206,13 +206,25 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
+  z-index: 2;
 }
 
 .iframe {
   width: 70%;
   height: 80vh;
+  z-index: -1;
 }
+
+.myVideo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+
 
 #pikaa {
   margin-left: 40%;
