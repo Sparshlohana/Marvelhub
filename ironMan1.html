@@ -54,8 +54,6 @@
             opacity: 1;
         }
 
-
-
         @keyframes typing {
             from {
                 width: 0;
@@ -71,11 +69,7 @@
     </style>
 </head>
 
-<body>
-
-
-
-
+<body onclick="display()">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top"
          style="position: sticky;   background-attachment:fixed;">
         <div class="container-fluid ">
@@ -117,32 +111,30 @@
     </nav>
     <div class="video">
         <video autoplay
-               loop
                muted
-               class="myVideo">
-            <source src="./vdos/iron-man.mp4"
-                    type="video/mp4">
+               loop
+               class="backgroundVideo">
+            <source src="./vdos/iron-man.mp4">
         </video>
-        <div class="iFrameContainer"
-             onclick="display()">
+        <div class="iFrameContainer">
 
             <iframe class="iframe"
                     id="iframe"
                     src="https://drive.google.com/file/d/1if0nXOM_RGSiVCTpIavmRwTc7LQhb9C-/preview"
                     width="640"
                     height="480"
-                    allow="autoplay"
-                    style="opacity: 0.2;"></iframe>
+                    allow="autoplay"></iframe>
 
         </div>
     </div>
-
-    <h2 id="pikaa">Iron Man 1 2008 </h2>
+    <center>
+        <h2 id="pikaa">Iron Man 1 2008 </h2>
+    </center>
     <script>
         function display() {
             let iframe = document.getElementById('iframe');
             iframe.style.opacity = 1;
-            iframe.style.zIndex = 3;
+            iframe.style.zIndex = 5;
         }
     </script>
 </body>

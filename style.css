@@ -207,29 +207,31 @@
   align-items: center;
   min-height: 100vh;
   z-index: 2;
+
 }
 
 .iframe {
   width: 70%;
   height: 80vh;
+  opacity: 0.35;
   z-index: -1;
 }
 
-.myVideo {
+.backgroundVideo {
   position: fixed;
-  left: 0;
-  right: 0;
   top: 0;
   bottom: 0;
-  object-fit: cover;
+  right: 0;
+  left: 0;
   z-index: -2;
+  object-fit: cover;
 }
 
-
 #pikaa {
-  margin-left: 40%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  background: rgba(0, 0, 0, 0.233);
+  color: #ba0000;
+  width: 20%;
 }
 
 @media (min-width: 576px) {
@@ -293,17 +295,28 @@
 
 }
 
+.loaderContainer {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  height: 100vh;
+  z-index: 111;
+}
+
 .loader {
   border: 16px solid #711111;
   /* Light grey */
-  border-top: 16px solid #ffffff;
+  border-top: 16px solid transparent;
   /* Blue */
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  position: absolute;
+  top: 44%;
+  left: 47%;
   animation: spin 2s linear infinite;
-  margin-left: 40%;
+  z-index: 111;
 }
+
 
 @keyframes spin {
   0% {
