@@ -270,45 +270,15 @@
   position: relative;
   animation-name: example;
   animation-duration: 5s;
+  animation: float 2s ease-in-out infinite;
   animation-iteration-count: infinite;
   /* background-image: url(./vdos/iron.gif); */
 }
 
-@keyframes example {
-  0% {
-    /* background-color: red; */
-    left: 100px;
-    top: 0px;
-    /* transform: rotate(45deg); */
-  }
+#pngiron {
+  margin-left: 38px;
+  margin-top: 22px;
 
-  25% {
-    /* background-color: yellow; */
-    left: 1300px;
-    top: 0px;
-    /* transform: rotate(180deg); */
-  }
-
-  50% {
-    /* background-color: blue; */
-    left: 1300px;
-    top: 500px;
-    transform: rotate(90deg);
-  }
-
-  75% {
-    /* background-color: green; */
-    left: 0px;
-    /* right: 600px; */
-    top: 500px;
-    /* transform: rotate(180deg); */
-  }
-
-  100% {
-    /* background-color: red; */
-    left: 100px;
-    top: 0px;
-  }
 }
 
 .loader {
@@ -331,4 +301,21 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  /* background-color: #f1f1f1; */
+  text-align: center;
+  /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: transparent;
+  /* color: rgb(130, 76, 76); */
 }
