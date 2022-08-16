@@ -217,6 +217,13 @@
   z-index: -1;
 }
 
+@media (max-width:600px) {
+  .iframe {
+    width: 80%;
+    height: 30vh;
+  }
+}
+
 .backgroundVideo {
   position: fixed;
   top: 0;
